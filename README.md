@@ -16,13 +16,11 @@
 либо
 
 ```
-bash
 docker-compose up -d
 ```
 
 либо стандартно для nuxt-приложений
 ```
-bash
 npm i
 npm run dev
 ```
