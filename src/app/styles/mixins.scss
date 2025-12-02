@@ -1,0 +1,47 @@
+@use 'variables';
+
+@mixin desktop-xl {
+  @media (max-width: #{variables.$breakpoint-desktop-xl}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (max-width: #{variables.$breakpoint-desktop - 1px}) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (max-width: #{variables.$breakpoint-tablet - 1px}) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media (max-width: #{variables.$breakpoint-mobile - 1px}) {
+    @content;
+  }
+}
+
+@mixin hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@mixin text-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+

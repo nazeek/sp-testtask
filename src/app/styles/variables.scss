@@ -1,0 +1,57 @@
+$breakpoint-desktop-xl: 1920px;
+$breakpoint-desktop: 1440px;
+$breakpoint-tablet: 1024px;
+$breakpoint-mobile: 768px;
+
+$rarity-common: #3B82F6;
+$rarity-uncommon: #A855F7;
+$rarity-rare: #10B981;
+$rarity-ultra-rare: #EF4444;
+$rarity-legendary: #1F2937;
+
+$color-primary: #3B82F6;
+$color-secondary: #64748B;
+$color-success: #10B981;
+$color-error: #EF4444;
+$color-warning: #F59E0B;
+
+$button-primary: #FE9920;
+
+$bg-primary: #FFFFFF;
+$bg-secondary: #F8FAFC;
+$bg-tertiary: #F1F5F9;
+$bg-semivisible: #FAFAFA;
+
+$text-primary: #0F172A;
+$text-secondary: #64748B;
+$text-tertiary: #B5B5B5;
+
+$button-text-default: #B5B5B5;
+
+$border-color: #F6F6F6;
+$border-active: #838383;
+$border-radius: 8px;
+$border-radius-lg: 12px;
+
+$spacing-xs: 4px;
+$spacing-sm: 12px;
+$spacing-md: 16px;
+$spacing-lg: 24px;
+$spacing-xl: 32px;
+$spacing-2xl: 48px;
+
+$shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+$shadow-md: 0 4px 10px -1px rgb(0 0 0 / 0.2);
+$shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1);
+
+$z-header: 100;
+$z-modal: 200;
+$z-dropdown: 150;
+
+$transition-fast: 150ms;
+$transition-base: 300ms;
+$transition-slow: 500ms;
+
+$main-font: 'Inter', sans-serif;
+$main-font-size: 16px;
+

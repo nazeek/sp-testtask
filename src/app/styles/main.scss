@@ -1,0 +1,41 @@
+@use 'variables';
+@use 'mixins';
+@use 'animations';
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: variables.$main-font-size;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-weight: 400;
+  color: variables.$text-primary;
+  background-color: variables.$bg-semivisible;
+  line-height: 1.5;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 variables.$spacing-md;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
